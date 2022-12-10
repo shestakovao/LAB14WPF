@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DATA\apple.jpg" />
+    <None Remove="DATA\banan.jpg" />
+    <None Remove="DATA\banan.png" />
+    <None Remove="DATA\fan.jpeg" />
+    <None Remove="DATA\tv.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DATA\apple.jpg" />
+    <Resource Include="DATA\banan.png" />
+    <Resource Include="DATA\fan.jpeg" />
+    <Resource Include="DATA\tv.jpg" />
+  </ItemGroup>
+
+</Project>
